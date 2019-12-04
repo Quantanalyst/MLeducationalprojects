@@ -12,6 +12,7 @@ There are three methods for regularization:
   ![Ridge Equation](https://github.com/Quantanalyst/MLeducationalprojects/blob/master/Regularization/Ridge_Equation.png)
   
   Above equation shows ridge regression, where the RSS is modified by adding the shrinkage quantity. Now, the coefficients are estimated by minimizing this function. Here, λ is the tuning parameter that decides how much we want to penalize the flexibility of our model.
+  When λ = 0, the penalty term has no eﬀect, and the estimates produced by ridge regression will be equal to least squares. However, as λ→∞, the impact of the shrinkage penalty grows, and the ridge regression coeﬃcient estimates will approach zero. As can be seen, selecting a good value of λ is critical. Cross validation comes in handy for this purpose. The coefficient estimates produced by this method are also known as the L2 norm.
 * Lasso
 * Elastic Net
 
