@@ -8,9 +8,10 @@ OLS seeks to minimize residual sum of squares or RSS (a.k.a. loss function). If 
 
 There are three methods for regularization: 
 * Ridge
+
   ![Ridge Equation](https://github.com/Quantanalyst/MLeducationalprojects/blob/master/Regularization/Ridge_Equation.png)
   
-  Above image shows ridge regression, where the RSS is modified by adding the shrinkage quantity. Now, the coefficients are estimated by minimizing this function. Here, λ is the tuning parameter that decides how much we want to penalize the flexibility of our model.
+  Above equation shows ridge regression, where the RSS is modified by adding the shrinkage quantity. Now, the coefficients are estimated by minimizing this function. Here, λ is the tuning parameter that decides how much we want to penalize the flexibility of our model.
 * Lasso
 * Elastic Net
 
