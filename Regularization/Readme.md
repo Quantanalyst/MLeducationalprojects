@@ -14,6 +14,11 @@ There are three methods for regularization:
   Above equation shows ridge regression, where the RSS is modified by adding the shrinkage quantity. Now, the coefficients are estimated by minimizing this function. Here, λ is the tuning parameter that decides how much we want to penalize the flexibility of our model.\
   When λ = 0, the penalty term has no eﬀect, and the estimates produced by ridge regression will be equal to least squares. However, as λ→∞, the impact of the shrinkage penalty grows, and the ridge regression coeﬃcient estimates will approach zero. As can be seen, selecting a good value of λ is critical. Cross validation comes in handy for this purpose. The coefficient estimates produced by this method are also known as the L2 norm.
 * Lasso
+
+  ![Ridge Equation](https://github.com/Quantanalyst/MLeducationalprojects/blob/master/Regularization/Lasso_Equation.png)
+  
+Lasso is another variation, in which the above function is minimized. Its clear that this variation differs from ridge regression only in penalizing the high coefficients. It uses |βj|(modulus)instead of squares of β, as its penalty. In statistics, this is known as the L1 norm. 
+
 * Elastic Net
 
 Regularization applies to loss functions. 
