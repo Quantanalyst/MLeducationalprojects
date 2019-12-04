@@ -20,8 +20,10 @@ There are three methods for regularization:
 Lasso is another variation, in which the above function is minimized. Its clear that this variation differs from ridge regression only in penalizing the high coefficients. It uses |βj|(modulus)instead of squares of β, as its penalty. In statistics, this is known as the L1 norm. 
 
 * Elastic Net
-
-Regularization applies to loss functions. 
+  * TBD
+  
+**What does Regularization achieve?**
+A standard OLS model tends to have some variance in it. Regularization, significantly reduces the variance of the model, without substantial increase in its bias. So the tuning parameter λ, used in the regularization techniques described above, controls the impact on bias and variance. As the value of λ rises, it reduces the value of coefficients and thus reducing the variance. This increase in λ is beneficial to a certain point (reducing the variance(hence avoiding overfitting), without loosing any important properties in the data), but after certain value, the model starts loosing important properties, giving rise to bias in the model and thus underfitting. Therefore, the value of λ should be carefully selected.
 
 
 
