@@ -20,5 +20,7 @@ What makes SVM special?
 
 
 Tuning Parameter:
-One of the popular Kernels in RBF (very similar to Guassian Kernel). One of our tuning parameters for RBF is gamma. RBF outcome depends on the Euclidean distance between two points. So, if two vectors are closer then the RBF value is small. As the variance is always positive, this means for closer vectors, the RBF kernel is widely spread than the farther vectors. When gamma parameter is high the value of kernel function will be less, even for two close by samples, and, this may cause complicated decision boundary or give rise to over-fitting. You can read more on this in a different post by me.
+One of the popular Kernels in RBF (very similar to Guassian Kernel). One of our tuning parameters for RBF is gamma. RBF outcome depends on the Euclidean distance between two points. So, if two vectors are closer then the RBF value is small. As the variance is always positive, this means for closer vectors, the RBF kernel is widely spread than the farther vectors. When gamma parameter is high the value of kernel function will be less, even for two close by samples, and, this may cause complicated decision boundary or give rise to over-fitting. 
+
+![RBF Gamma](gammatuning.png)
 
