@@ -24,3 +24,10 @@ One of the popular Kernels in RBF (very similar to Guassian Kernel). One of our 
 
 ![RBF Gamma](gammatuning.png)
 
+
+Some notes:
+  * Polynomial Kernel is popular in image processing
+  * RBF Kernel is a general-purpose kernel and is used when there is no prior knowledge about the data
+  * Hyperbolic Tangent Kernel is used in NN
+  * Sigmoid Kernel can be used as a proxy for neural networks
+  * Linear Splines Kernel in one dimension is useful when dealing with large sparse data vectors. It is often used in text categorization. The splines kernel also performs well in regression problems.
