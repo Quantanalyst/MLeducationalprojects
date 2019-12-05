@@ -16,4 +16,4 @@ What makes SVM special?
   
   Kernels:
   
-![Kernel Functions](https://github.com/Quantanalyst/MLeducationalprojects/blob/master/Regularization/Ridge_Equation.png)
+![Kernel Functions] (https://github.com/Quantanalyst/MLeducationalprojects/blob/master/Classification%20Folder/Support%20Vector%20Machine%20(SVM)/Kernels.png)
