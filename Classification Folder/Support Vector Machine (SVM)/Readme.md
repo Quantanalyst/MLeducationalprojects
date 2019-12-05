@@ -16,4 +16,4 @@ What makes SVM special?
   
   Kernels:
   
-![Kernel Functions] (Kernels.png)
+![KernelFunctions](Kernels.png)
