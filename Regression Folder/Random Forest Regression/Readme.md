@@ -1,8 +1,8 @@
 ## Random Forest
 
-There are many classification algorithms such as logistic regression, SVM, naive Bayes classifier, and decision trees. But near the top of the classifier hierarchy is the Random Forest.
+Random Forest is an ensemble method. 
 
-_**Introduction:**_ The **random forest** is a classification algorithm consisting of many decisions trees. It uses 1. **bagging** and 2. **feature randomness** when building each individual tree to try to create an **uncorrelated** forest of trees whose prediction by committee is more accurate than that of any individual tree.
+_**Introduction:**_ The **random forest** is a Classification and Regression algorithm consisting of many decisions trees. It uses 1. **bagging** and 2. **feature randomness** when building each individual tree to try to create an **uncorrelated** forest of trees whose prediction by committee is more accurate than that of any individual tree.
 
 _**Question 1:**_ What is needed for the algorithm to make accurate predictions?
 * Features must have at least some **predictive power**.
