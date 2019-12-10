@@ -19,9 +19,13 @@ This measure defines the likeliness of occurrence of consequent on the cart give
 
 ![Confidence](Confidence.png)
 
+**Lift:**\
+Lift controls for the support (frequency) of consequent while calculating the conditional probability of occurrence of {Y} given {X}. Lift is a very literal term given to this measure. Think of it as the *lift* that {X} provides to our confidence for having {Y} on the cart. To rephrase, lift is the rise in probability of having {Y} on the cart with the knowledge of {X} being present over the probability of having {Y} on the cart without any knowledge about presence of {X}. Mathematically,
 
 
+![Lift](Lift.png)
 
+A value of lift greater than 1 vouches for high association between {Y} and {X}. More the value of lift, greater are the chances of preference to buy {Y} if the customer has already bought {X}. Lift is the measure that will help store managers to decide product placements on aisle.
 
 * What is the difference b/w **Association Rule** and **Collaborative Filtering**?
   * Rules do not tie back a users’ different transactions __over time__ to identify relationships. List of items with unique transaction IDs (**from all users**) are studied as one group. **This is helpful in placement of products on aisles**. 
