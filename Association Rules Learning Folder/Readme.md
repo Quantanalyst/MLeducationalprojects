@@ -37,4 +37,4 @@ What is the difference b/w **Association Rule** and **Collaborative Filtering**?
   * Rules do not tie back a users’ different transactions __over time__ to identify relationships. List of items with unique transaction IDs (**from all users**) are studied as one group. **This is helpful in placement of products on aisles**. 
   * On the other hand, collaborative filtering ties back all transactions corresponding to a user ID to identify similarity between **users’ preferences**. **This is helpful in recommending items on e-commerce websites, recommending songs on spotify, etc**.
   
-Source: ![Complete guide to Association Rules](https://towardsdatascience.com/complete-guide-to-association-rules-2-2-c92072b56c84)
+Source: [Complete guide to Association Rules](https://towardsdatascience.com/complete-guide-to-association-rules-2-2-c92072b56c84)
