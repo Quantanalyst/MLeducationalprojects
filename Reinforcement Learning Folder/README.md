@@ -17,6 +17,8 @@ Bandit algorithms for balancing exploration vs. exploitation problem:
   * Upper Confidence Bound (UCB)
   * Thompson Sampling
 
+What is **Regret** ? 
+An additional means of assessing the algorithms’ performance is through the concept of regret. Intuitively, regret is quite simple. The algorithm’s regret concerning its action (what k to show) should be as low as possible. Simply, regret is the difference between the best performance from a variant so far and the performance from the variant chosen for the current trial t.
 
 
 P.S. Reinforcement learning is different from A/B testing. A/B testing is only for exploration. So, during the A/B testing, you're not concerned about exploitation. When the exploration is finalized, then the A/B test result will be exploited. In other words, in A/B testing, the exploration and exploitation is done separately, which incur a lot of cost. On the other hand, reinforcement learning is seeking to optimize exploration and exploitation at the same time and combine the two together. 
