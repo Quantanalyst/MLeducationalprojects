@@ -12,11 +12,10 @@ The online advertisement version of Multi-Armed Bandit Problem:
   * At each round n, ad i gives reward ri(n):{0,1}, it is 1 if the user clicked on the ad i, 0 if the user didn't.
   * Our goal is to maximize the total reward we get over many rounds.
 
-Solutions for exploration vs. exploitation problem:
+Bandit algorithms for balancing exploration vs. exploitation problem:
   * Epsilon greedy
   * Upper Confidence Bound (UCB)
-  * Thompson Sampling 
-
+  * Thompson Sampling
 
 
 
