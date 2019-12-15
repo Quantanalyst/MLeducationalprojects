@@ -4,7 +4,7 @@ Algorithm:
   * Convolution
     * In this stage, we have input image and feature detectors (aka kernel or filter). Convolution operation scans the input image from the lens of feature detector to create a feature map. In this process areas of the image that match feature detector pattern will be intensified. Since we use multiple feature detectors, in the end, we have multiple feature maps at the end of this step.
     * Convolution sometimes create linearity between features of the final feature map. To break this linearity and add more non-linearity, we use Rectifier (ReLU) activation function. The benefit of this step is clearer in mathematics. 
-    * ![Convolution](Convolution.png)
+    * ![Convolution](Convolutoin.png)
   * Max Pooling
     * This step is necessary to make CNN **spatial invariant**.
     * One of the added value of max pooling is reducing the size of an image. Since we only take the maximum value of a cell, the other non-important values will be discarded, and it saves a lot of computation.
