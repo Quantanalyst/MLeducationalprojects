@@ -21,7 +21,7 @@ transform = transforms.Compose([transforms.Scale(imageSize), transforms.ToTensor
 
 
 # Loading the dataset
-dataset = dset.CIFAR10(root = './data', download = True, transform = transform) # We download the training set in the ./data folder and we apply the previous transformations on each image.
+dataset = dset.CIFAR10(root = './newdata', download = True, transform = transform) # We download the training set in the ./data folder and we apply the previous transformations on each image.
 dataloader = torch.utils.data.DataLoader(dataset, batch_size = batchSize, shuffle = True, num_workers = 2) # We use dataLoader to get the images of the training set batch by batch.
 
 # Defining the weights_init function that takes as input a neural network m and that will initialize all its weights.
