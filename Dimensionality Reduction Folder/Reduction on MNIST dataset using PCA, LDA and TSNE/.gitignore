@@ -1,0 +1,7 @@
+# large files
+train.csv
+test.csv
+pca_styled-scatter.html
+lda_styled-scatter.html
+tsne_styled-scatter.html
+temp-plot.html
